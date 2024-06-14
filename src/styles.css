@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    /* background-color: rgb(241, 255, 134); */
+    /* background-image: url('/assets/images/moneyPlant.jpeg'); */
+    /* background-size: cover; */
+    background: linear-gradient(to right, #fffd87, rgba(247, 255, 9, 0.776));
+    /* height: 1500px; Set to a height greater than viewport height */
+    /* overflow-y: auto; */
+}

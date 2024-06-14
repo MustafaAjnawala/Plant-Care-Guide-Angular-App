@@ -1,0 +1,32 @@
+nav {
+    background-color: green;
+    overflow: hidden;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -8px;
+}
+.navbar-text {
+    float: left;
+    text-align: center;
+    padding: 14px 20px;
+    font-size: large;
+}
+
+nav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:not(.LOGO){
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+
+nav a:hover {
+    background-color: rgb(30, 229, 100);
+    color: black;
+}

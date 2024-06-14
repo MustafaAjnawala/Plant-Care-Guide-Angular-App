@@ -1,0 +1,47 @@
+.plant-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.plant-info {
+  flex: 1;
+  padding: 20px;
+}
+
+.plant-info h3 {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 20px;
+}
+
+.plant-info p {
+  margin-bottom: 20px;
+  color: #666;
+  font-size: 16px;
+}
+
+.plant-image {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.plant-image img {
+  margin-left: 170px;
+  width: 125px;
+  height: auto;
+  transition: transform 0.5s ease; 
+  border-radius: 5px;
+  border : 2px solid #FFF455;
+}
+
+.plant-image img:hover {
+  transform: scale(1.5); 
+}

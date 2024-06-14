@@ -1,0 +1,58 @@
+.Contents {
+    height: 100vh; /* Set height to full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Set position to relative */
+    background-image: url('/assets/images/back.jpeg');
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.Contents h1,
+.Contents h3,
+.Contents button {
+    position: relative; /* Set position to relative */
+    z-index: 1; /* Ensure text and button appear over the background image */
+}
+
+.Contents h1 {
+    font-size: 40px;
+    background-image: linear-gradient(to right, #ec5353, #ff9e0c); /* Add linear gradient to text */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    color: yellow;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.h{
+    background-color: green;
+    border-radius: 20px;
+    height: 70px;
+    width: 900px;
+    text-align: center;
+    align-items:normal;
+    line-height:12px;
+}
+
+.Contents h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.Contents button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #2be616;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Contents button:hover {
+    background-color: #0c81cf; /* Change color on hover */
+}

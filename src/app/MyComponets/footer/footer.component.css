@@ -1,0 +1,18 @@
+footer {
+    background-color: green;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer-column {
+    flex: 1;
+    margin-right: 20px; /* Adjust the spacing between columns */
+    padding: 10px;
+    background-color: #77f4b4;
+    text-align: center;
+}

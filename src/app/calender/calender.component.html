@@ -1,0 +1,43 @@
+<h1>Plant Lover's Calendar</h1>
+<div>
+  <label for="plantName">Plant Name:</label>
+  <input type="text" id="plantName" [(ngModel)]="newPlant.name">
+</div>
+<div>
+  <label for="waterFrequency">Watering Frequency:</label>
+  <select id="waterFrequency" [(ngModel)]="newPlant.waterFrequency">
+    <option value="daily">Daily</option>
+    <option value="weekly">Weekly</option>
+    <option value="monthly">Monthly</option>
+  </select>
+</div>
+<div>
+  <label for="fertilizerDate">Fertilizer Addition Date:</label>
+  <input type="date" id="fertilizerDate" [(ngModel)]="newPlant.fertilizerDate">
+  <!-- <input type="text" id="fertilizerDate" (input)="formatDate($event)" [(ngModel)]="newPlant.fertilizerDate"> -->
+
+</div>
+<div>
+  <label for="fertilizerFrequency">Fertilizer Frequency:</label>
+  <select id="fertilizerFrequency" [(ngModel)]="newPlant.fertilizerFrequency">
+    <option value="monthly">Monthly</option>
+    <option value="weekly">Weekly</option>
+    <option value="yearly">Yearly</option>
+  </select>
+</div>
+<div>
+<button (click)="addPlant()">Add Plant</button>
+<button (click)="removeAllPlants()" style="margin-left: 5px;">Delete All</button>
+<button (click)="deletePlant()" style="margin-left: 5px;">Delete Plant</button>
+</div>
+
+<link rel="stylesheet" href="print-styles.css" media="print">
+<div *ngIf="plants.length > 0">
+  <h2>My Plants</h2>
+  <ul>
+    <li *ngFor="let plant of plants">
+      {{ plant.name }} - Watering: {{ plant.waterFrequency }}, Fertilizer Date: {{ plant.fertilizerDate }}, Fertilizer Frequency: {{ plant.fertilizerFrequency }}
+    </li>
+  </ul>
+  <button (click)="printPlants()">Print Plants</button>
+</div>

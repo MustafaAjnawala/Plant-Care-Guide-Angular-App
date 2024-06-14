@@ -1,0 +1,23 @@
+.hamburger-menu {
+    position: fixed;
+    /* top: 50px; Adjust as needed to position below navigation bar */
+    left: 0;
+    width: 200px; /* Adjust as needed */
+    height: 380px;
+    background-color: greenyellow;
+    padding: 20px;
+    /* z-index: 999; Ensure it appears above other content */
+  }
+  .hamburger-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .hamburger-menu ul li {
+    margin-bottom: 10px;
+  }
+  
+  .hamburger-menu ul li a {
+    color: #0918ea;
+    text-decoration: none;
+  }

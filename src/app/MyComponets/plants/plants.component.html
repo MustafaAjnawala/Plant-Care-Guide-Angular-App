@@ -1,0 +1,9 @@
+<div *ngFor="let plant of plants" class="plant-container">
+    <div class="plant-info">
+        <h3>{{ plant.name }}</h3>
+        <p>{{ plant.description }}</p>
+    </div>
+    <div class="plant-image">
+        <img [src]="plant.imageUrl" alt="{{ plant.name }}" (mouseenter)="onMouseEnter(plant)" (mouseleave)="onMouseLeave()">
+    </div>
+</div>
