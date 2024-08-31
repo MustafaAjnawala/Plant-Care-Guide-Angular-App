@@ -1,5 +1,13 @@
-# Final
+# Plant-Care-Guide
+## Project images
+![image](https://github.com/MustafaAjnawala/Plant-Care-Guide-Angular-App/assets/117845490/e55cb078-06df-472c-8097-7271a824dcd4)
 
+![image](https://github.com/MustafaAjnawala/Plant-Care-Guide-Angular-App/assets/117845490/332d33fc-4111-4298-abe1-bab531c82e32)
+
+
+![image](https://github.com/MustafaAjnawala/Plant-Care-Guide-Angular-App/assets/117845490/85fa6699-aba4-41ee-934e-67ea3a3bdcf2)
+
+ 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
 
 ## Development server
