@@ -1,0 +1,9 @@
+{
+  "routes": [
+    "/about",
+    "/calendar",
+    "/footer",
+    "/home",
+    "/plants"
+  ]
+}
